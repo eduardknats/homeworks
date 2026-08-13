@@ -20,7 +20,7 @@ public final class Immutable {
         mutable.setName("имя после изменения");
 
         System.out.println("Попытка изменения через конструктор");
-        System.out.println("immutable " + immutable.value.getName());
+        System.out.println("immutable " + immutable.getValue().getName());
         System.out.println("mutable " + mutable.getName());
         System.out.println();
 
